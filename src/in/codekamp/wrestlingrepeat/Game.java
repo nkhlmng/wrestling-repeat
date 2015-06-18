@@ -49,6 +49,9 @@ public class Game {
 
 			}
 		}
+		
+		Wrestler wrestler1 = new Wrestler("undertaker", 2, 6.5, 80.9, 20, 2);
+		wrestler1.display();
 	}
 
 }
