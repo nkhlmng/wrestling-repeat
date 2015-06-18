@@ -8,16 +8,17 @@ public class Game {
 
 	public static void main(String[] args) {
 		int choice = 0;
-		System.out.println("On what attribute you want to play?");
-		System.out.println("1. Rank");
-		System.out.println("2. Height");
-		System.out.println("3. Weight");
-		System.out.println("4. Matches Won");
-		System.out.println("5. Matches Lost");
-		System.out.println("6. Total Matches");
-		System.out.println("7. I don't want to play");
-
+		
+		
 		while (choice != 7) {
+			System.out.println("On what attribute you want to play?");
+			System.out.println("1. Rank");
+			System.out.println("2. Height");
+			System.out.println("3. Weight");
+			System.out.println("4. Matches Won");
+			System.out.println("5. Matches Lost");
+			System.out.println("6. Total Matches");
+			System.out.println("7. I don't want to play");
 
 			if (userInput.hasNextInt()) {
 				choice = userInput.nextInt();
